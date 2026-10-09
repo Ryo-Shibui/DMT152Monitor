@@ -62,7 +62,7 @@ PuTTY and NI-DAQmx are not required for this program.
 
 1. Download the repository from GitHub with `Code` -> `Download ZIP`, or clone it with Git.
 2. If you downloaded a ZIP file, extract it to a normal working folder.
-3. Open `DMT152Monitor.sln` in Visual Studio 2022.
+3. Open `DMT152Monitor.sln` in Visual Studio.
 4. Select `Release` and `x64`.
 5. Confirm that `DMT152Monitor` is the startup project.
 6. Run `Build` -> `Build Solution`.
