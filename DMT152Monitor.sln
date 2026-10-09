@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMT152Monitor.Core", "src\DMT152Monitor.Core\DMT152Monitor.Core.csproj", "{B02A7868-0E04-4F44-8A85-71EFC9765420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMT152Monitor", "src\DMT152Monitor\DMT152Monitor.csproj", "{0D3F9A08-E09B-4D4C-8A5A-D4092AF85434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMT152Monitor.SelfTests", "tests\DMT152Monitor.SelfTests\DMT152Monitor.SelfTests.csproj", "{AED4507A-0157-494B-B5E7-7CC068513ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02A7868-0E04-4F44-8A85-71EFC9765420}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B02A7868-0E04-4F44-8A85-71EFC9765420}.Debug|x64.Build.0 = Debug|Any CPU
+		{B02A7868-0E04-4F44-8A85-71EFC9765420}.Release|x64.ActiveCfg = Release|Any CPU
+		{B02A7868-0E04-4F44-8A85-71EFC9765420}.Release|x64.Build.0 = Release|Any CPU
+		{0D3F9A08-E09B-4D4C-8A5A-D4092AF85434}.Debug|x64.ActiveCfg = Debug|x64
+		{0D3F9A08-E09B-4D4C-8A5A-D4092AF85434}.Debug|x64.Build.0 = Debug|x64
+		{0D3F9A08-E09B-4D4C-8A5A-D4092AF85434}.Release|x64.ActiveCfg = Release|x64
+		{0D3F9A08-E09B-4D4C-8A5A-D4092AF85434}.Release|x64.Build.0 = Release|x64
+		{AED4507A-0157-494B-B5E7-7CC068513ABF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AED4507A-0157-494B-B5E7-7CC068513ABF}.Debug|x64.Build.0 = Debug|Any CPU
+		{AED4507A-0157-494B-B5E7-7CC068513ABF}.Release|x64.ActiveCfg = Release|Any CPU
+		{AED4507A-0157-494B-B5E7-7CC068513ABF}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
