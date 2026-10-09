@@ -50,7 +50,7 @@ For long measurements, use stable operating power for the DMT152 instead of rely
 ## Install on a Fresh PC
 
 1. Run Windows Update.
-2. Install Visual Studio 2022.
+2. Install Visual Studio (for now "10/09/2026", Visual Studio 2026).
 3. In Visual Studio Installer, select the `.NET desktop development` workload.
 4. Install the .NET 8 SDK if it was not installed with Visual Studio.
 5. Install the driver for the Vaisala USB cable or your RS-485-to-USB adapter.
